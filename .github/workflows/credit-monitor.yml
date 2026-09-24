@@ -3,7 +3,7 @@ name: Trae Credit Monitor
 on:
   schedule:
     # 北京时间每小时第 0 分（UTC 整点）
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:
